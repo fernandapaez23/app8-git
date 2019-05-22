@@ -11,7 +11,7 @@
 <div id="mapholder"></div>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFd0aiE5FttY8XRAFI9ecTSpgo2vP-qMk"></script>
 
-<button onclick="cargarmap()">Carga mapa</button>
+<button onclick="cargarmap()">Cargar mapa</button>
 <script type="text/javascript">
 var x=document.getElementById("demo");
 function cargarmap(){
@@ -26,7 +26,7 @@ function showPosition(position)
 	mapholder.style.width='750px';
 	var myOptions={
 		center:latlon,zoom:17,
-		mapTypeld:google.maps.MapTypeld.ROADMAP,
+		mapTypeId:google.maps.MapTypeId.ROADMAP,
 		mapTypeControl:false,
 		navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
 	};
